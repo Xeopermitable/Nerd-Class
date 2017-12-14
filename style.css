@@ -21,7 +21,7 @@ img{
 	border-color:#3333cc;
 }
 
-a:hover {
+a{
 	color:#ff00ff;
 	border-style:double;
 	border-width: 3px;
