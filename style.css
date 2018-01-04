@@ -1,0 +1,14 @@
+body{
+	background-color: #00ffff;
+	color:#009900;
+	}
+
+h1{
+	text-align: center;
+	}
+
+a{
+	border-style: solid;
+	border-width:3px;
+	border-color: #ff6600
+	}
