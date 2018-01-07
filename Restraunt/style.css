@@ -1,0 +1,68 @@
+th{
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	padding: 8px; 
+	padding-top: 3px;
+	background-color: white;
+}
+th.food{
+	padding: 8px; 
+	padding-top: 3px;
+	background-color: white;
+}
+img{
+	width: 230px;
+	height: 110px;
+}
+h1{
+	text-align: center;
+	color: red;
+	background-color: white;
+}	
+h1.Guys{
+	text-align: center;
+	color: red;
+	background-color: white;
+	font-family:'Montserrat', sans-serif;
+	font-size: 48px;
+}
+p{
+	text-align:center;
+	background-color: white;
+}
+a{
+	color: blue;
+}
+table{
+	font-family:"Palatino"
+}
+img.logo{
+	width: 500px;
+	height: 300px;
+}
+body{
+	 background-image:
+      -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
+      -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+      -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+      -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)), 
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size:100px 100px;
+    background-size:100px 100px;
+    -webkit-background-size:100px 101px; 
+    
+    background-position:0 0, 50px 0, 50px -50px, 0px 50px; /* credit to http://lea.verou.me/2011/02/checkerboard-pattern-with-css3*/
+}
+ul{
+	list-style-type: square;
+	vertical-align: top;
+}
+td{
+	background-color: white;
+}
