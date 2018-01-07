@@ -13,3 +13,6 @@ a{
 	border-color: #ff6600
 	color:black;
 	}
+ul{
+	list-style-type: disc;
+}
