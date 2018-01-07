@@ -12,13 +12,15 @@ th.food{
 	background-color: white;
 }
 img{
-	width: 230px;
-	height: 110px;
+	width: 350px;
+	height: 200px;
 }
 h1{
 	text-align: center;
 	color: #cc0000;
 	background-color: white;
+	border-style: groove;
+	border-color: red; 
 }	
 h1.Guys{
 	text-align: center;
@@ -29,17 +31,20 @@ h1.Guys{
 }
 p{
 	text-align:center;
-	background-color: white;
 }
 a{
 	color: blue;
 }
 table{
-	font-family:"Palatino"
+	font-family:"Palatino";
 }
 img.logo{
-	width: 500px;
-	height: 300px;
+	width: 700px;
+	height: 350px;
+	border-width: 1px
+	background-color:white;
+	border-style: outset;
+	border-color: red;
 }
 body{
 	 background-image:
@@ -65,4 +70,7 @@ ul{
 }
 td{
 	background-color: white;
+	border-color: red;
+	border-style: solid;
+	border-width: 3px
 }
