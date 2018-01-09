@@ -31,24 +31,26 @@ h1{
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-
 }
 
 a{
 	color: blue;
 }
+
 table{
-	font-family:"Palatino";
+	font-family: "Palatino";
 	margin-bottom: -5px;
 }
+
 img.logo{
 	width: 700px;
 	height: 350px;
 	border-width: 4px;
-	background-color:white;
+	background-color: white;
 	border-style: outset;
 	border-color: red;
 }
+
 body{
 	 background-image:
       -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
@@ -67,15 +69,18 @@ body{
     
     background-position:0 0, 50px 0, 50px -50px, 0px 50px; /* credit to http://lea.verou.me/2011/02/checkerboard-pattern-with-css3*/
 }
+
 ul{
 	list-style-type: square;
 }
+
 td{
 	background-color: white;
 	border-color: red;
 	border-style: solid;
 	border-width: 3px;
 }
+
 p{
 	text-align: center;
 }
