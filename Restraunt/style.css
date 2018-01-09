@@ -41,7 +41,7 @@ table{
 img.logo{
 	width: 700px;
 	height: 350px;
-	border-width: 1px
+	border-width: 1px;
 	background-color:white;
 	border-style: outset;
 	border-color: red;
