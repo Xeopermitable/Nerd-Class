@@ -21,22 +21,16 @@ img{
 h1{
 	text-align: center;
 	color: #cc0000;
+	margin:auto;
 	background-color: white;
 	border-style: groove;
 	border-color: red; 
 	margin-bottom: -10px;
-	
-}	
-h1.Guys{
-	text-align: center;
-	color: #cc0000;
-	background-color: white;
-	font-family:'Montserrat', sans-serif;
-	font-size: 48px;
+	font-size: 175%;
+	width: 100px;
+
 }
-p{
-	text-align:center;
-}
+
 a{
 	color: blue;
 }
