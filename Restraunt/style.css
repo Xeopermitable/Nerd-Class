@@ -22,7 +22,7 @@ ul{
     .col-m-12 {width: 100%;}
     ul{list-style-type: none;}
     .col-m-13{width: 400px;height:200px;}
-    .col-m-14{width: 200%}
+    .col-m-14{width: 200%;}
 }
 
 @media only screen and (min-width: 1008px) {
