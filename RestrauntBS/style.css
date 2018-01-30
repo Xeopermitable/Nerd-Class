@@ -1,0 +1,93 @@
+
+ul{list-style-type: none;} /* Make thing to be phone specific */
+
+th{
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	padding: 8px; 
+	background-color: white;
+	font-size: 130%;	
+}
+th.food{
+	padding: 8px; 
+	padding-top: 3px;
+	background-color: white;
+	border-radius: 600px;
+	padding-top: 8px;
+}
+img{
+	width: 300px;
+	height:150px;
+}
+h1{
+	text-align: center;
+	color: #cc0000;
+	margin: auto;
+	background-color: white;
+	border-style: groove;
+	border-color: red; 
+	margin: 10px;
+	font-size: 250%;
+	width: 100px;
+	border-radius: 1000px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 105px;
+}
+
+a{
+	color: blue;
+}
+
+table{
+	font-family: "Palatino";
+	margin: 5px;
+	float: left;
+}
+.links{
+	width: 150px;
+	height:100px;
+}
+img.logo{
+	border-width: 4px;
+	background-color: white;
+	border-style: outset;
+	border-color: red;
+    width: auto;
+    height: auto;
+}
+
+body{
+	 background-image:
+      -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
+      -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+      -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+      -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)), 
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size:100px 100px;
+    background-size:100px 100px;
+    -webkit-background-size:100px 101px; 
+    
+    background-position:0 0, 50px 0, 50px -50px, 0px 50px; /* credit to http://lea.verou.me/2011/02/checkerboard-pattern-with-css3*/
+}
+
+
+td{
+	background-color: white;
+	border-color: red;
+	border-style: solid;
+	border-width: 3px;
+	text-align: center;
+}
+
+body{
+	text-align: center;
+}
+.fud{height: 300px;}
+.coke{width: 100%;height: 100%}

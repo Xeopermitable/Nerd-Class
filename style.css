@@ -1,6 +1,8 @@
 body{
 	background-color: #000099;
 	color: #80d4ff;
+	margin: auto;
+	padding:auto;
 	}
 
 h1{
@@ -16,4 +18,8 @@ ul{
 }
 li{
 	padding: 4px;
+}
+img{
+	width: 300px;
+	height: auto;
 }
