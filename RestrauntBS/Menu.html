@@ -2,22 +2,44 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
-
+</head>
     <title>Restaunt (BS)</title>
  
   </head>
-  <body><div class="container">
-  <h1>Menu</h1>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <body><div class="container-fluid">
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="Index.html">Five Guys Burgers</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="Index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+             <li class="active"><a href="Menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact/Social Media</a></li>
+        <li><a href="http://www.fiveguys.com/Fans/The-Five-Guys-Story">About Us</a></li>    
+        <li><a href="https://order.fiveguys.com/">Locations</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+  <h1 class="col-9 rounded">Menu</h1>
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Burgers</th>
+      <th class="food"><a href="#" data-toggle="tooltip" title="Your choice of toppings included">Burgers</a></th>
       </tr>
     <tr class="fud">
       <td>        
@@ -35,9 +57,9 @@
         </td>
       </tr>
     </table>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Hot Dogs</th>
+      <th class="food"><a href="#" data-toggle="tooltip" title="Your choice of toppings included">Hot Dogs</a></th>
       </tr>
     <tr class="fud">
       <td>
@@ -50,9 +72,9 @@
         </td>
       </tr>
     </table>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Milk Shakes</th>
+      <th class="food"><a href="#" data-toggle="tooltip" title="Whipcream included for no extra cost">Milk Shakes</a></th>
       </tr>
     <tr class="fud">
       <td>
@@ -72,9 +94,9 @@
         </td>
       </tr>
     </table>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Sandwiches</th>
+      <th class="food" style="color: blue;">Sandwiches</th>
       </tr>
     <tr class="fud">
       <td>
@@ -87,9 +109,9 @@
         </td>
       </tr>
     </table>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Fries</th>
+      <th class="food" style="color: blue;">Fries</th>
       </tr>
     <tr class="fud">
       <td>
@@ -100,38 +122,70 @@
         </td>
       </tr>
     </table>
-  <table align="center" cellpadding="10" cellspacing="20" class="col-md-3 col-sm-5 col-7">
+  <table align="center" cellpadding="10" cellspacing="20" class="col-xs-12  col-md-4 col-sm-6">
     <tr>
-      <th class="food">Drinks</th>
+      <th class="food" style="color: blue;">Drinks</th>
       </tr>
     <tr class="fud">
-      <td>
+      <td class="coke">
         We proudly serve Coca-Cola products.
-        <br><img class="coke" src="Images/Coke.png">
         </td>
       </tr>
     </table>
-    <table class="col-md-4 col-sm-3 col-12 links" align="center" cellpadding="10" cellspacing="20">
+    <table class="links col-xs-12 col-md-4 col-sm-3" align="center" cellpadding="10" cellspacing="20">
     <tr>
       <th>
         <a href="Index.html">Home
           <br><img src="Images/5Guys.png"></a></th>
       </tr>
     </table>
-  <table class="col-md-4 col-sm-3 col-12 links" align="center" cellpadding="10" cellspacing="20">
-    <tr>
-      <th>
-        <a href="http://www.fiveguys.com/Fans/The-Five-Guys-Story">Our Story
-        <br><img src="Images/restraunt.jpg"></a></th>
-      </tr>
+
+      <table class="links col-xs-12 col-md-4 col-sm-3" align="center">
+      <tr><
+        <th>
+          <a href="contact.html">Contact/Social Media
+          <br><img src="Images/contact.png"></a></th>
+        </tr>
     </table>
-  <table class="links col-md-4 col-sm-3 col-12" align="center" cellpadding="10" cellspacing="20">
+
+  <table class="links col-xs-12 col-md-4 col-sm-3" align="center" cellpadding="10" cellspacing="20">
       <tr>
         <th>
           <a href="https://order.fiveguys.com/">Locations
           <br><img src="Images/map.jpg"></a></th>
         </tr>
-    </table></div>
+    </table>
+  </div>
+  <div class="container-fluid">
+<!--Footer-->
+<footer class="page-footer blue center-on-small-only">
+
+    <!--Footer Links-->
+    <div class="container-fluid" style="background-color: grey;">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-6">
+                <h5 class="title">Store Hours</h5>
+                <p>Open Daily from 11am-10pm.</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="https://www.facebook.com/fiveguys/">Facebook</a></li>
+                    <li><a href="https://twitter.com/Five_Guys">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/fiveguys/">Instagram</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+</footer>
+  </div>
 
 
 

@@ -1,5 +1,7 @@
-
-ul{list-style-type: none;} /* Make thing to be phone specific */
+*{
+    box-sizing: border-box;
+}
+ul{list-style-type: none;}
 
 th{
 	border-width: 3px;
@@ -11,29 +13,29 @@ th{
 }
 th.food{
 	padding: 8px; 
-	padding-top: 3px;
-	background-color: white;
-	border-radius: 600px;
+	margin-bottom: 3px;/* has no effect on spacing*/
+	background-color: #cccccc;
+    text-align: center;
 	padding-top: 8px;
 }
 img{
 	width: 300px;
 	height:150px;
 }
-h1{
+.rounded{
 	text-align: center;
 	color: #cc0000;
 	margin: auto;
 	background-color: white;
 	border-style: groove;
 	border-color: red; 
-	margin: 10px;
 	font-size: 250%;
 	width: 100px;
 	border-radius: 1000px;
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 105px;
+
 }
 
 a{
@@ -42,20 +44,20 @@ a{
 
 table{
 	font-family: "Palatino";
-	margin: 5px;
 	float: left;
+    margin-top: 10px;
 }
 .links{
 	width: 150px;
 	height:100px;
 }
-img.logo{
+.logo{
 	border-width: 4px;
 	background-color: white;
 	border-style: outset;
 	border-color: red;
-    width: auto;
     height: auto;
+    padding: 5px;
 }
 
 body{
@@ -84,10 +86,38 @@ td{
 	border-style: solid;
 	border-width: 3px;
 	text-align: center;
+   
 }
 
 body{
-	text-align: center;
+	align-content: center;
+    padding-top: 68px;
 }
 .fud{height: 300px;}
-.coke{width: 100%;height: 100%}
+.coke{
+    background-image: url("Images/Coke.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.white{background-color: white;}
+
+footer{
+    color: #ff3300;
+}
+
+h1{
+    text-align: center;
+    color: #cc0000;
+    margin: auto;
+    background-color: white;
+    border-style: groove;
+    border-color: red; 
+    font-size: 250%;
+    width: 100px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 105px;
+    
+}
+
+
