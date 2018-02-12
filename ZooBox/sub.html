@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZooBox</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="Index.html"><img src="Images/Zoo.png" class="logo"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="Index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+	             <li class="active"><a href="sub.html">Box Subscriptions</a></li>
+	              <li><a href="recipies.html">Recipies</a></li>
+	        <li><a href="history.html">Our History</a></li>     
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+    <p>
+        <a data-toggle="tooltip" title="Changes depending on what is in season">The ZooBox will come with the following items</a>
+        <ul>
+            <li>
+                1 Mammal (Big Cut)
+            </li>
+            <li>
+                1 Non-mammal
+            </li>
+            <li>
+                1 Specialty Meat (i.e. sausage, Jerky, etc.)
+            </li>
+        </ul>
+    </p>
+
+    <table class="col-xs-12 col-sm-4">
+        <tr>
+            <th>
+                Quarterly
+            </th>
+            <th>
+                <a data-toggle="tooltip" title="Renews automatically, cancel at any time. Contents will be shipped for the next two seasons (i.e. January & April, July & October, etc.)">1/2 Year</a>
+            </th>
+            <th>
+                <a data-toggle="tooltip" title="Renews automatically, cancel at any time. Contents will be shipped for the next year starting with the next season (January, April, July, October)">Annually</a>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                $65 once
+            </td>
+            <td>
+                $55 2x/year
+            </td>
+            <td>
+                $50 4x/year
+            </td>
+        </tr>
+    </table><br><br>
+
+<div class="container">
+ <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Style The Contact Form How Ever You Prefer -->
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+
+ 
+
+    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+
+          action="https://script.google.com/macros/s/AKfycbyyisngHg0HRYbm1Tmksf9ImPsbVklcq6aVWHrW5ieOKdva_GO1/exec">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="johnnyappleseed@gmail.com">
+
+    <label for="country"><a data-toggle="tooltip" title="Free shipping in North Ammerica, Comming Soon to EU">Country</a></label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="mexico">Mexico</option>
+      <option value="usa">USA</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="subject">Notes</label>
+    <textarea id="subject" name="subject" placeholder="Write something.. (i.e. preferred payment method, box subscription, etc.)" style="height:200px"></textarea>
+
+    <button class="button-success pure-button button-xlarge">
+
+            <i class="fa fa-paper-plane"></i>&nbsp;Send
+
+        </button>
+
+  </form>
+
+ <div style="display:none;" id="thankyou_message">
+
+        <h2>
+
+            <em>Thank you</em> for signing up!
+
+            We will get back to you soon!
+
+        </h2>
+
+    </div>
+
+    <script data-cfasync="false" type="text/javascript"
+
+            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> 
+
+
+</div>
+
+
+
+    <table class="col-xs-12 col-sm-4">
+        <tr>
+            <th>
+                <a href="Index.html">ZooBox!
+                    <br><img src="Images/Zoo.png"></a>
+            </th>
+        </tr>
+    </table>
+
+    <table class="col-xs-12 col-sm-4">
+        <tr>
+            <th>
+                <a href="recipies.html">Recipies!
+                    <br><img src="Images/recipies.jpg"></a>
+            </th>
+        </tr>
+    </table>
+
+    <table class="col-xs-12 col-sm-4">
+        <tr>
+            <th>
+                <a href="history.html">Our History!
+                    <br><img src="Images/history.jpg"></a>
+            </th>
+        </tr>
+    </table>
+
+  </div>
+
+
+
+<!--Footer-->
+<footer class="page-footer blue center-on-small-only foot">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-6">
+                <h5 class="title">CEO and Founder: Joey Knapp</h5>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="https://www.facebook.com/ZooBox/">Facebook</a></li>
+                    <li><a href="https://twitter.com/ZooBox">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/ZooBox/">Instagram</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+<!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2018 Copyright: <a href="Index.html"> ZooBox.com </a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+</footer>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
