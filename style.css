@@ -23,3 +23,8 @@ img{
 	width: 300px;
 	height: auto;
 }
+.carousel-inner{
+height:800px;
+background-position: center;
+background-size: cover;
+}
